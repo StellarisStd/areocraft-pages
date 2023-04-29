@@ -1,0 +1,43 @@
+﻿
+    
+<local:MyCard Title="百宝箱">
+    <StackPanel Margin="25,40,23,15">
+       <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="打开 MCBBS" EventType="打开网页" EventData="https://www.mcbbs.net/" />
+
+<local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="打开 Wiki" EventType="打开网页" EventData="https://minecraft-zh.gamepedia.com/Minecraft_Wiki" ToolTip="点击打开 Minecraft Wiki！" />
+
+<local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="打开 B 站" EventType="打开网页" EventData="https://www.bilibili.com/" />
+
+<local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="打开 chuckbase" EventType="打开网页" EventData="https://chuckbase.net" ToolTip="点击打开 Minecraft seed map！" />
+
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="版本信息" EventType="弹出窗口" EventData="areocraft now 1.19.4|areocraft update to minecraft1.19.4 now \n and this launcher version is 0.1" />
+
+<local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="打开画图" EventType="打开文件" EventData="mspaint.exe" />
+
+<local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Highlight" Padding="13,0,13,0"
+                   Text="刷新主页" EventType="刷新主页" />
+
+<local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Red"
+                   Text="复制ac腐竹的id" EventType="复制文本" EventData="misivid_koukou" ToolTip="koukou!" />
+
+<local:MyButton Margin="0,8,0,10" Width="250" Height="35" ColorType="Red"
+                   Text="百宝箱" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1GJ411x7h7/?spm_id_from=333.337.search-card.all.click" />
+
+            
+            
+      
+    </StackPanel>
+</local:MyCard>
+    
+    
+<local:MyCard Title="快捷启动">
+    <StackPanel Margin="25,40,23,15">
+  
+    </StackPanel>
+</local:MyCard>
