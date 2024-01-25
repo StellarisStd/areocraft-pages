@@ -1,4 +1,4 @@
-<!-- Copyright (C) 。 -->
+<!-- Copyright (C) AreoCraft GamingHub ORG. -->
 <html lang="cn">
 
 <head>
@@ -22,6 +22,7 @@
 		console.log("");
 	</script>
 	<script>
+		window.onload = function () {
 		// 获取当前的访问次数
 		var count = localStorage.getItem("visitCount");
 
@@ -39,6 +40,9 @@
 		// 更新计数器的显示
 		var visitCountElement = document.getElementById("visit-count");
 		visitCountElement.innerHTML = count ;
+		console.log("本站访问量：" + count);
+		}
+	</script>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-nav">
@@ -245,8 +249,8 @@
 								<a class="text-normal" href="javascript:;" onclick="alert('这个还不能点哦~')">2024寒假期间已正式重新开服！</a>
 							</h4>
 							<p class="info"></p>
-							<p class="number"><i class="fa fa-clock-o"></i> 2024-01-24 / <i class="fa fa-eye"></i> <span id="visit-count"></span> 次浏览
-								/ <i class="fa fa-comments-o"></i> -条评论</p>
+							<p class="number"><i class="fa fa-clock-o"></i> 2024-01-24 / <i class="fa fa-eye"></i> <span id="visit-count"> </span> 次浏览
+								<!--/ <i class="fa fa-comments-o"></i> -条评论--></p>
 						</div>
 					</div>
 					<!--<div class="col-xs-12 col-sm-12 webitem">
